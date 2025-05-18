@@ -1,0 +1,22 @@
+/* common */
+.grid {
+  display: grid;
+}
+
+.gird-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12 ;
+}
+
+
+
+/* header */
+header {
+  display: flex;
+}
+
+
+
